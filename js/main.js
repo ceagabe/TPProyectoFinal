@@ -43,7 +43,7 @@ cad = `
 
 <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
 <div class="container-fluid">
-    <a class="navbar-brand" href="index.html">My book </a>
+    <a class="navbar-brand" href="./imagenes/OIP (8).jpg">My book </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
