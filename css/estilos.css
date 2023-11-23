@@ -1,0 +1,174 @@
+body {
+    background-color: bisque;
+}
+
+
+.container-rest {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    background-color: beige;
+    margin: 0.5rem;
+    /* border: black solid 1px;
+    border-radius: 20px ; */
+}
+
+.card-rest {
+    width: 300px;
+    margin: 0.5rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px inset;
+}
+
+.card-rest img { width: 100px;
+
+}
+
+.btn{
+    color: black;
+    font-style: italic;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    
+}
+
+
+
+
+header {
+
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+header,
+body,
+footer,
+main {
+
+    /* border: 3px black solid; */
+    min-height: 50px;
+    min-width: 400px;
+    margin: 0.5rem;
+    /*medida relativa 1rem es 16px  */
+
+
+}
+
+body {
+    background-color: bisque;
+    font-family: "Helvetica neue", Courier, monospace, sans-serif;
+
+}
+
+
+
+main {
+    background-color: beige;
+    min-height: 200px;
+    overflow: auto;
+}
+
+footer {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    /*border: 2px green solid*/
+}
+
+
+.header-logo {
+
+    display:inline;
+    margin:flex;
+}
+
+
+.header-menubar {
+    /* padding: 0.5rem; */
+    margin: 0.5rem 0 0.5rem 1rem;
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menubar ul {
+    list-style: none
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.header-menubar a {
+    text-decoration: none;
+    color: black;
+    border: 1px rgb(235, 195, 222) solid;
+    border-radius: 3px;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+.header-menubar :hover {
+    color: chartreuse;
+}
+
+.header-menubar a li form {
+    font-size: 2rem;
+    background: transparent;
+
+}
+
+.header-boton {
+
+    margin: 0.5rem 0 0.5rem 1rem;
+    padding: 0.3rem;
+    border: 2px red solid;
+    position: relative;
+    float: right;
+
+}
+
+
+.navimagen {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+#tel {
+    /* display: inline-block; */
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+article img {            
+    width: 20%;
+}
+
+header {
+    background-color: white;
+    color: #e28e8e;
+    text-align: center;
+    padding: 20px;
+}
+
+form{
+    align-items: center;
+    padding: 0.5rem;
+    margin: 0.5rem;
+
+}

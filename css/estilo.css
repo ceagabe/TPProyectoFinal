@@ -1,0 +1,885 @@
+* {
+    /*aplica a todo*/
+
+    /*padding: 0;   corrige el menu*/
+    box-sizing: border-box;
+    /* la referencia sera con los bordes!*/
+}
+
+html {
+    font-size: 1rem;
+    height: 100%;
+}
+
+
+header {
+
+    background-color: white;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+
+header,
+body,
+footer,
+main {
+
+    /* border: 3px black solid; */
+    min-height: 50px;
+    min-width: 400px;
+    margin: 0.5rem;
+    /*medida relativa 1rem es 16px  */
+
+
+}
+
+body {
+    background-color: bisque;
+    font-family: "Helvetica neue", Courier, monospace, sans-serif;
+
+}
+
+
+
+main {
+    background-color: beige;
+    min-height: 200px;
+    overflow: auto;
+}
+
+main>div {
+    /* para todo el div hijo directo del main */
+    min-height: 180px;
+    margin: 0.5rem;
+    /* border: 2px blue solid; */
+    height: auto;
+    float: left;
+    width: 65%;
+}
+
+main>aside {
+    /* para todo el aside hijo directo del main */
+    min-height: 180px;
+    margin: 0.5rem;
+    min-width: 30%;
+    float: left;
+    width: auto;
+    /* border: 2px blue solid; */
+}
+
+
+footer {
+    margin: 0.5rem;
+    padding: 1rem;
+    background-color: white;
+    /*border: 2px green solid*/
+}
+
+    p  {
+        text-align: justify; /*agregue*/
+        margin:0,5rem; 
+    }
+
+
+
+.secciones {
+    min-height: 50px;
+    margin: 0.5rem;
+    /* border: 2px green solid */ 
+
+}
+
+.secciones article {
+    
+    border: 1px inset;
+    color: black;
+    border-radius: 5px;
+    margin: 0.5rem;
+    min-height: 20px;
+    /*text-align: center;*/
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: beige;
+   
+    margin: 10px;
+    padding: 5px;
+   
+    mask-position: 7px;
+    text-align: center;
+    font: bold;
+
+
+}
+
+#gif-ppal {
+    width: 100%;
+}
+
+#gif-sec {
+    width: 25%;
+}
+
+/* logo y menu*/
+
+.header-logo {
+
+    display:inline;
+    margin:flex;
+}
+
+.header-menubar {
+    /* padding: 0.5rem; */
+    margin: 0.5rem 0 0.5rem 1rem;
+    left: auto;
+    position: relative;
+    top: auto;
+    width: auto;
+    display: inline-block;
+}
+
+.header-menubar ul {
+    list-style: none
+}
+
+.header-menubar li {
+    float: left;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5rem;
+}
+
+.header-menubar a {
+    text-decoration: none;
+    color: black;
+    border: 1px rgb(235, 195, 222) solid;
+    border-radius: 3px;
+    padding: 0.5rem;
+    box-shadow: 0 0 0.5rem rgb(83 78 76 / 50%);
+}
+
+.header-menubar :hover {
+    color: chartreuse;
+}
+
+.header-menubar a li form {
+    font-size: 2rem;
+    background: transparent;
+
+}
+
+.header-boton {
+
+    margin: 0.5rem 0 0.5rem 1rem;
+    padding: 0.3rem;
+    border: 2px red solid;
+    position: relative;
+    float: right;
+
+}
+
+.navimagen {
+    width: 40px;
+    height: 40px;
+    padding: 0.5rem;
+}
+
+#tel {
+    /* display: inline-block; */
+    animation: bounce;
+    /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 2s;
+    /* don't forget to set a duration! */
+}
+
+article img {            
+    width: 20%;
+}
+
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos para la sección de novedades con CSS Grid */
+.novedades {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas de igual ancho */
+    gap: 20px;
+    /* Espacio entre elementos */
+    padding: 20px;
+}
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos adicionales para títulos y descripciones */
+.item h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.item p {
+    font-size: 1rem;
+}
+
+.Contenedor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    margin: auto;
+    background-color: beige;
+    
+}
+
+.novedades, .Contenedor{
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    /* 3 columnas de igual ancho */
+    gap: 10px;
+    /* Espacio entre elementos */
+    
+    padding: 10px;
+
+}
+
+
+
+h2 {
+    text-align: center;
+    font-size: 48px;
+
+    color: black;
+}
+
+.Absoluta {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+}
+
+#Card  {
+    border: 1px inset;
+    color: black;
+    margin: 10px;
+    padding: 5px;
+    width: 270px;
+    mask-position: 7px;
+    text-align: center;
+    border-radius: 5px;
+    font: bold;
+
+}
+
+.imagencard {
+    margin: 10px;
+}
+
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: white;
+    color: #e28e8e;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+/* Estilos para la sección de novedades con CSS Grid */
+
+.item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.item img {
+    max-width: 100%;
+    height: auto;
+}
+
+/*css para el html resgistro*/
+* {
+    
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.form-content {
+    width: 100%;
+    max-width: 450px;
+    background-color: #0d0e0d;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+.form-content h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:#ffffff;
+    position: relative;
+}
+.form-content h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: crimson;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.input-field {
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 53px;
+    color: #ffffff;
+}
+input::placeholder {
+    color: #ffffff;
+}
+.input-field i {
+    margin-left: 15px;
+    color: crimson;
+}
+form p {
+    color: #ffffff;
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    color: crimson; 
+    margin-left: 5px;
+}
+.btn-field {
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+}
+.btn-field button{
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: crimson;
+    color: #ffffff;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.input-group {
+    height: 100%;
+
+}
+.btn-field button.disable {
+    background-color: #eaeaea;
+    color:#2f302f;
+}
+.error {
+    color:red;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+/*css grid responsive para el html series*/
+.contenedor-serie {
+    width: 100%;
+    max-width: 1340px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat (3, 1fr);
+    grid-template-rows: repeat (4, auto);
+
+    grid-template-areas: "header-serie header-serie header-serie"
+                         "contenido-serie contenido-serie contenido-serie"
+                         "widget-1s widget-2s sidebar-serie"
+                         "footer-serie footer-serie footer-serie";
+}
+.contenedor-serie > div,
+.contenedor-serie .header-serie,
+.contenedor-serie .contenido-serie,
+.contenedor-serie .sidebar-serie,
+.contenedor-serie .footer-serie {
+    padding: 20px;
+}
+.contenedor-serie .header-serie{
+    grid-area: header-serie;
+}
+.contenedor-serie .contenido-serie {
+    grid-area: contenido-serie;
+   
+}
+.contenedor-serie .sidebar-serie {
+    grid-column: 3 / 4;
+    background: #f1d34c;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    min-height: 100px;
+    grid-area: sidebar-serie;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin: 5px;
+}
+.contenedor-serie .widget-1s,
+.contenedor-serie .widget-2s {
+    background: #f1d34c;
+    color:#ffffff;
+    height: 300px;
+    border-radius: 20px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    margin: 5px;
+
+}
+.contenedor-serie .widget-1s {
+    grid-area: widget-1s;
+}
+.contenedor-serie .widget-2s {
+    grid-area: widget-2s;
+}
+
+.contenedor-serie .footer-serie {
+    grid-area: footer-serie;
+}
+.tserie {
+       
+    font-family: Arial, sans-serif;
+}
+.tituloserie {
+    text-align: center;
+    font-weight:bold
+}
+.contenedor-flex {
+    width: auto;
+    max-width: 1300px;
+    background: beige;
+    padding: 40px;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat (2 1fr);
+    grid-row: repeat(2 1fr);
+    grid-template-areas: "elemento1 elemento2"
+                         "elemento3 elemento4";
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    
+
+}
+.elemento {
+    margin: 10px;
+    width: auto;
+    background: beige;
+    border-radius: 10px;
+    border: 1px #070707 solid;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+}
+.elemento1 {
+    grid-area: elemento1;
+}
+.elemento2 {
+    grid-area: elemento2;
+}
+.elemento3 {
+    grid-area: elemento3;
+}
+.elemento4 {
+    grid-area: elemento4;
+}
+.textos {
+    color:#f2f3eb;
+    font-weight: 600;
+    height: 100%;
+    font-size: 24px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+    
+}
+@media screen and (max-width: 768px){
+    .contenedor-serie {
+        grid-template-areas: "header-serie header-serie header-serie"
+                             "contenido-serie contenido-serie contenido-serie"
+                             "sidebar-serie sidebar-serie sidebar-serie"
+                             "widget-1s widget-1s widget-2s"
+                             "footer-serie footer-serie footer-serie";
+    }
+    .contenedor-flex {
+        grid-template-areas: "elemento1 elemento1"
+                             "elemento2 elemento2"
+                             "elemento3 elemento3"
+                             "elemento4 elemento4";
+                             
+    }
+}
+.contenido-contactos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background: #070707;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.contactos {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+    gap:10px;
+    width: 1000px;
+    
+}
+
+.box-info {
+    color:#fff;
+    display:flex;
+    flex-direction: column;
+    gap:50px;
+}
+
+.box-info > h1 {
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    gap:25px
+}
+
+.data > p {
+    font-size: 1rem;
+}
+
+.data > p > i {
+    color:crimson;
+    margin-right: 10px;
+    font-size:25px;
+}
+
+
+
+.links {
+    display:flex;
+    gap:30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.links > a {
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    background: crimson;
+    text-align: center;
+    transition: .1s;
+}
+
+.links > a > i {
+    color:#fff;
+    line-height: 40px;
+    font-size: 20px;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    gap:15px;
+}
+
+.input-box {
+    position:relative;
+}
+
+.input-box > input {
+    width: 100%;
+    height: 40px;
+    padding: 0 10px;
+    outline:none;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    transition:.3s;
+    color:#fff;
+    
+}
+
+.input-box > input::placeholder,
+.input-box > textarea::placeholder {
+    color:#a3a3a3;
+    
+}
+
+.input-box > input:focus::placeholder,
+.input-box > textarea:focus::placeholder {
+    color:transparent;
+}
+
+.input-box > input:focus,
+.input-box > textarea:focus {
+    border-bottom:3px solid crimson;
+    animation: shake .2s;
+}
+
+.input-box > textarea {
+    width: 100%;
+    height: 130px;
+    padding: 10px;
+    background: rgba(255 255 255 / .1);
+    border:3px solid transparent;
+    letter-spacing: 1px;
+    outline: none;
+    transition:.3s;
+    color:#fff;
+    letter-spacing: 1.5px;
+}
+
+
+.input-box > i {
+    position:absolute;
+    top:50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color:rgba(255 255 255 / .3);
+    transition: .3s;
+}
+
+.input-box > input:focus ~ i {
+    color:crimson;
+}
+
+form > button {
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    background: crimson;
+    color:#fff;
+    border:none;
+    transition: .1s;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+form > button:hover,
+.links > a:hover {
+    background: rgb(172, 16, 47);
+}
+
+@keyframes shake { 
+    0%, 100% {transform: translateX(0);} 
+    10%, 30%, 50%, 70%, 90% {transform: translateX(-10px);} 
+    20%, 40%, 60%, 80% {transform: translateX(10px);} 
+ }
+
+
+@media screen and (max-width:600px) {
+    .container {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        gap:20px;
+    }
+
+    .box-info {
+        gap:15px;
+    }
+
+    .box-info > h1 {
+        font-size: 1.5rem;
+    }
+}
+
+/*css para el libros_api html */
+tabla > th  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+  
+}
+table{
+    border: 1px black solid;
+    background-color: beige;
+    padding: 10px;
+}
+
+tabla > th, td, tr {
+    border: 1px black solid;
+  
+}
+td img { width: 70px;
+
+}
+#busqueda {
+    align-self: auto;
+    align-content: center;
+    font-style: italic;
+}
+ 
+#busqueda input {
+    color: black;
+    width: 15%;
+    border: 2px black solid;
+    background-color: beige;
+    padding: 0%;    
+    align-items: center;
+        
+}
+
+.container-api{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    background-color: beige;
+    margin: 0.5rem;
+
+}
+
+.card-api {
+    width: 300px;
+    margin: 0.5rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: beige;
+    padding: 0.5rem;
+   
+    border: 1px inset;
+}
+
+.card-api img { width: 100px;
+
+}
+
+
+/*css para el productos api-rest html */
+
+.container-rest {
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: left;
+    background-color: beige;
+    margin: 0.5rem;
+    border-radius: 20px ;
+}
+
+.card-rest {
+    
+    margin: 0.5rem;
+    border: 1px black solid;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0.5rem;
+    text-align: center;
+    border: 1px inset;
+}
+
+.card-rest img { width: 100px;
+
+}
+
+.btn{
+    color: black;
+    font-style: italic;
+    padding: 0.1rem;
+    margin-top: auto;
+ 
+}
+
+
+/* d-flex flex-row flex-wrap justify-content-around */
+
+.prod{
+    color: red;
+    background-color: black;
+}
