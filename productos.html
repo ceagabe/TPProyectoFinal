@@ -46,7 +46,7 @@
                                     <p class="card-text">Cantidad: {{producto.stock}} unidades </p>
                                     <p class="card-text">Descripcion: {{producto.descripcion}}</p>
                                     <a class="btn btn-outline-primary" :href="'producto_update.html?id=' + producto.id "
-                                        alert-danger>Agregar/modificar</a>
+                                        alert-danger>Modificar</a>
                                     <button type="button" class="btn btn-outline-danger"
                                         v-on:click="eliminar(producto.id)">Eliminar</button>
                                 </div>
