@@ -18,10 +18,10 @@
     </header>
     <main>
         <div id="app" class=""> <!-- id="app" es lo que monta el VUE -->
-            <h3>Libros</h3>
+            <h3>Libros_adm</h3>
             <br>
 
-            <!--<a class="btn btn-outline-success" href="producto_nuevo.html">Nuevo</a> -->
+            <a class="btn btn-outline-success" href="producto_nuevo.html">Nuevo</a>
             <br><br>
             <div v-if="error">
                 <p>Lo sentimos , ........</p>
@@ -45,10 +45,10 @@
                                     <p class="card-text">Precio: ${{producto.precio}}</p>
                                     <p class="card-text">Cantidad: {{producto.stock}} unidades </p>
                                     <p class="card-text">Descripcion: {{producto.descripcion}}</p>
-                                 <!--   <a class="btn btn-outline-primary" :href="'producto_update.html?id=' + producto.id "
+                                    <a class="btn btn-outline-primary" :href="'producto_update.html?id=' + producto.id "
                                         alert-danger>Modificar</a>
                                     <button type="button" class="btn btn-outline-danger"
-                                        v-on:click="eliminar(producto.id)">Eliminar</button> -->
+                                        v-on:click="eliminar(producto.id)">Eliminar</button>
                                 </div>
                             </div>
                         </div>
