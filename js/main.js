@@ -62,9 +62,7 @@ cad = `
             <li class="nav-item">
             <a class="nav-link" href="productos.html" role="button">Libros</a>
             </li>
-            <li class="nav-item">
-            <a class="nav-link" href="productos_adm.html" role="button">Libros_adm</a>
-            </li>
+            
             <li class="nav-item">
             <a class="nav-link" href="libros_api.html" role="button">Mas Libros(api)</a>
             </li>
