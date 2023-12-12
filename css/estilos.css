@@ -182,3 +182,128 @@ form{
     box-sizing: border-box;
     text-decoration: none;
 }
+
+
+
+
+.form-label{
+    color: rgb(226, 18, 18);
+}
+#container {
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+.login {
+    width: 100%;
+    max-width: 450px;
+    background-color: #0d0e0d;
+    padding: 50px 60px 70px;
+    text-align: center;
+    border-radius: 25px;
+}
+.login h1 {
+    font-size: 30px;
+    margin-bottom: 60px;
+    color:#080808;
+    position: relative;
+}
+.login h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: crimson;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.input-field {
+    background-color: #515966;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: none;
+    padding: 18px 53px;
+    color: #0c0b0b;
+}
+input::placeholder {
+    color: #0a0a0a;
+}
+.input-field i {
+    margin-left: 15px;
+    color: crimson;
+}
+form p {
+    color: #0c0c0c;
+    text-align: left;
+    font-size: 13px;
+}
+form p a {
+    color: crimson; 
+    margin-left: 5px;
+}
+.btn-field {
+    width: 100%;
+    display:flex;
+    justify-content:space-around;
+}
+.btn-field button{
+    flex-basis: 48%;
+    font-size: 16px;
+    background-color: crimson;
+    color: #080808;
+    height: 40px;
+    border-radius: 10px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+.input-group {
+    height: 100%;
+
+}
+.btn-field button.disable {
+    background-color: #0c0c0c;
+    color:#2f302f;
+}
+.error {
+    color:red;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f8f9fa;
+    flex-direction: column;
+}
+
+form {
+    width: 450px;
+    padding: 20px;
+    border: 1px solid #d6d6d6;
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+form button {
+    width: 100%;
+}
