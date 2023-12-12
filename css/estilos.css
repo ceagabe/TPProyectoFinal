@@ -286,15 +286,7 @@ form p a {
     font-weight: 500;
 }
 
-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f8f9fa;
-    flex-direction: column;
-}
+
 
 form {
     width: 450px;
